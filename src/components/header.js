@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import logo from '../logo.svg';
 
 function Header({title}) {
   return (
-  <nav className="navigation">
+  <nav className="navigation bg-light">
     <div className="container-fluid">
       <a className="navbar-brand" href="#">
-        <img src="#" alt="" width="30" height="24"/>
+        <img src="{logo}" alt="gratidude logo" width="30" height="24"/>
       </a>
       {title}
     </div>

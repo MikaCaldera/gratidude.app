@@ -1,6 +1,8 @@
 .navigation {
   @extend .navbar, .navbar-light;
 
+  border-bottom: 1px solid black;
+
   img {
     @extend .d-inline-block, .align-text-top;
   }
