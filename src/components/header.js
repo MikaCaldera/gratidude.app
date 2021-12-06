@@ -2,11 +2,14 @@ import React from 'react'
 
 function Header({title}) {
   return (
-    <div>
-      <h1 className="text-primary">
+  <nav className="navigation">
+    <div className="container-fluid">
+      <a className="navbar-brand" href="#">
+        <img src="#" alt="" width="30" height="24"/>
+      </a>
       {title}
-      </h1>
     </div>
+  </nav>
   )
 }
 

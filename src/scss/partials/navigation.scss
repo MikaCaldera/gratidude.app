@@ -1,0 +1,7 @@
+.navigation {
+  @extend .navbar, .navbar-light;
+
+  img {
+    @extend .d-inline-block, .align-text-top;
+  }
+}
